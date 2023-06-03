@@ -1,2 +1,51 @@
 
 /* Your CSS Code here. */
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Portfolio{
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+  
+ 
+  gap: 10%;
+
+}
+.profile{
+  background: transparent;
+  border: none;
+ 
+}
+#img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+ background-color: black;
+
+} 
+.two{
+  display: flex;
+  gap: 40px;
+}
+.skills{
+  color: rgb(107, 137, 161);
+}
+b{
+  color: rgb(21, 163, 52);
+}
+ul li{
+  color: rgb(107, 137, 161)
+}
